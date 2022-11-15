@@ -1,8 +1,7 @@
 import React from "react";
-//import { BrowserRouter, Router, Route, Link } from "react-router-dom";
-//import Login from "../containers/Login";
+import Login from "../containers/Login";
 
-const Navbar = () => {
+const Menu = () => {
   return (
     <div>
       <section id="hero">
@@ -17,7 +16,7 @@ const Navbar = () => {
         </div>
       </section>
 
-      <header id="header" className="d-flex align-items-center ">
+    
         <div className="container-fluid d-flex align-items-center justify-content-lg-between">
           <a href="index.html" className="logo me-auto me-lg-0">
             <img
@@ -78,22 +77,15 @@ const Navbar = () => {
               <i className="bi bi-linkedin"></i>
             </a>
           </div>
-          {/* <BrowserRouter>
-            <Router>
-              <Route>
-                <Link
-                  to={Login}
-                  className="book-a-table-btn scrollto d-none d-lg-flex"
-                >
-                  Inicio de Sesión
-                </Link>
-              </Route>
-            </Router>
-          </BrowserRouter> */}
+          <a
+            href={<Login />}
+            className="book-a-table-btn scrollto d-none d-lg-flex"
+          >
+            Inicio de Sesión
+          </a>
         </div>
-      </header>
     </div>
   );
 };
 
-export default Navbar;
+export default Menu;
