@@ -7,7 +7,7 @@ const Services = () => {
                 <div className="container">
 
                     <div className="section-title">
-                        <h2>SERVICIO</h2>
+                        <h2>Servicios</h2>
                     </div>
 
                     <div className="row content">

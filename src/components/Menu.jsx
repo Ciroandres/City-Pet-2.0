@@ -7,20 +7,15 @@ const Menu = () => {
       <section id="hero">
         <div className="hero-container">
           <h1>La ciudad para tu mascota</h1>
-          <h2>
-            Ahora puedes disfrutar los mejores momentos junto a tu mascota
-          </h2>
-          <a href="#geolocalizacion" className="btn-get-started scrollto">
-            Geolocalización
-          </a>
+          <h2>Ahora puedes disfrutar los mejores momentos junto a tu mascota</h2>
+          <a href="#geolocalizacion" className="btn-get-started scrollto">Geolocalización</a>
         </div>
       </section>
-
-    
+      <header id="header" className="d-flex align-items-center ">
         <div className="container-fluid d-flex align-items-center justify-content-lg-between">
-          <a href="index.html" className="logo me-auto me-lg-0">
+          <a href="t" className="logo me-auto me-lg-0">
             <img
-              src="/public/img/logopet.png"
+              src="../img/logopet.png"
               alt=""
               className="img-fluid"
             ></img>
@@ -62,29 +57,21 @@ const Menu = () => {
             </ul>
             <i className="bi bi-list mobile-nav-toggle"></i>
           </nav>
-
           <div className="header-social-links d-flex align-items-center">
-            <a href={"$"} className="twitter">
-              <i className="bi bi-twitter"></i>
-            </a>
-            <a href={"$"} className="facebook">
-              <i className="bi bi-facebook"></i>
-            </a>
-            <a href={"$"} className="instagram">
-              <i className="bi bi-instagram"></i>
-            </a>
-            <a href={"$"} className="linkedin">
-              <i className="bi bi-linkedin"></i>
-            </a>
+            <a href="/" className="twitter"><i className="bi bi-twitter"></i></a>
+            <a href="/" className="facebook"><i className="bi bi-facebook"></i></a>
+            <a href="/" className="instagram"><i className="bi bi-instagram"></i></a>
+            <a href="/" className="linkedin"><i className="bi bi-linkedin"></i></a>
           </div>
-          <a
-            href={<Login />}
-            className="book-a-table-btn scrollto d-none d-lg-flex"
-          >
-            Inicio de Sesión
-          </a>
         </div>
-    </div>
+        <a
+          href={<Login />}
+          className="book-a-table-btn scrollto d-none d-lg-flex"
+        >
+          Inicio de Sesión
+        </a>
+      </header>
+    </div >
   );
 };
 

@@ -5,13 +5,12 @@ const Caracterist = () => {
     <div>
       <section id="caracteristicas" className="our-values">
         <div className="section-title">
-          <h2>CARACTERISTICAS DE CITYPET</h2>
+          <h2>Caracteristicas de CityPet</h2>
         </div>
         <div className="container">
           <div className="row">
             <div className="col-md-6 d-flex align-items-stretch">
-              <div className="card">
-                {/* Style='background-image: url("/public/img/dog.jpg");' */}
+              <div className="card-1">
                 <div className="card-body">
                   <h5 className="card-title">
                     <a href={"$"}>Geolocalización</a>
@@ -25,8 +24,7 @@ const Caracterist = () => {
               </div>
             </div>
             <div className="col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
-              <div className="card">
-                {/* Style='background-image: url("/public/img/dog_2.jpg");' */}
+              <div className="card-2">
                 <div className="card-body">
                   <h5 className="card-title">
                     <a href={"$"}>Información</a>
@@ -40,8 +38,8 @@ const Caracterist = () => {
             </div>
           </div>
         </div>
-      </section>
-    </div>
+      </section >
+    </div >
   );
 };
 

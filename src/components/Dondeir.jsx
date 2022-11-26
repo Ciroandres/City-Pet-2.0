@@ -18,7 +18,7 @@ const Dondeir = () => {
               <div className="member">
                 <div className="member-img">
                   <img
-                    href="/public/img/team/atlantis_plaza.jpg"
+                    src="../img/team/atlantis_plaza.jpg"
                     className="img-fluid"
                     alt=""
                   />
@@ -48,7 +48,7 @@ const Dondeir = () => {
               <div className="member">
                 <div className="member-img">
                   <img
-                    src="assets/img/team/creps.jpg"
+                    src="../img/team/creps.jpg"
                     className="img-fluid"
                     alt=""
                   />
@@ -80,7 +80,7 @@ const Dondeir = () => {
               <div className="member">
                 <div className="member-img">
                   <img
-                    src="assets/img/team/bruna.jpg"
+                    src="../img/team/bruna.jpg"
                     className="img-fluid"
                     alt=""
                   />
@@ -108,7 +108,7 @@ const Dondeir = () => {
             <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
               <div className="member">
                 <div className="member-img">
-                  <img src="assets/img/team/mac.jpg" className="img-fluid" alt="" />
+                  <img src="../img/team/mac.jpg" className="img-fluid" alt="" />
                   <div className="social">
                     <a href="https://twitter.com/McDonaldsCol">
                       <i className="bi bi-twitter"></i>
