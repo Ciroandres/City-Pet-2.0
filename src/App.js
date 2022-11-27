@@ -13,6 +13,7 @@ import Login from "./containers/Login";
 import Footer from "./components/Footer";
 import Contact from "./containers/Contact";
 import Geolocate from "./containers/Geolocate";
+import Home from "./components/Home";
 
 function App() {
   return (
@@ -36,25 +37,9 @@ function App() {
               <Route path="/caracteristicas" element={<Caracterist />} />
               <Route path="/dondeir" element={<Dondeir />} />
               <Route path="/geolocate" element={<Geolocate />} />
-              <Route path="/contact" element={<Contact />} />
+              <Route path="/contacto" element={<Contact />} />
+              <Route path="/" element={<Home />} />
             </Routes>
-          </Container>
-          <Container>
-            <Services />
-          </Container>
-          <Container>
-            <Caracterist />
-          </Container>
-          <Container>
-            {" "}
-            <Dondeir />
-          </Container>
-          <Container>
-            <Geolocate />
-          </Container>
-          <Container>
-            {" "}
-            <Contact />
           </Container>
         </main>
         <footer>

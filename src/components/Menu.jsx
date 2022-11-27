@@ -1,5 +1,5 @@
 import React from "react";
-import Login from "../containers/Login";
+import { NavLink } from "react-router-dom";
 
 const Menu = () => {
   return (
@@ -24,34 +24,34 @@ const Menu = () => {
           <nav id="navbar" className="navbar order-last order-lg-0">
             <ul>
               <li>
-                <a className="nav-link scrollto active" href="#hero">
-                  Inicio
+                <a className="nav-link scrollto active" href="/hero">
+                  <NavLink to="/">Inicio</NavLink>
                 </a>
               </li>
               <li>
-                <a className="nav-link scrollto" href="#servicio">
-                  Servicio
+                <a className="nav-link scrollto" href="/servicio">
+                  <NavLink to="/servicios">Servicio</NavLink>
                 </a>
               </li>
               <li>
-                <a className="nav-link scrollto" href="#caracteristicas">
-                  Caracteristicas
+                <a className="nav-link scrollto" href="/caracteristicas">
+                  <NavLink to="/caracteristicas">Caracteristicas</NavLink>
                 </a>
               </li>
               <li>
-                <a className="nav-link scrollto " href="#dondeir">
-                  Donde ir
+                <a className="nav-link scrollto " href="/dondeir">
+                  <NavLink to="/dondeir">Donde ir</NavLink>
                 </a>
               </li>
               <li>
-                <a className="nav-link scrollto" href="#geolocalizacion">
-                  Geolocalizacion
+                <a className="nav-link scrollto" href="/geolocalizacion">
+                  <NavLink to="/geolocate">Geolocalización</NavLink>
                 </a>
               </li>
 
               <li>
-                <a className="nav-link scrollto" href="#contacto">
-                  Contactanos
+                <a className="nav-link scrollto" href="/contacto">
+                  <NavLink to="/contacto">Contacto</NavLink>
                 </a>
               </li>
             </ul>
@@ -64,11 +64,10 @@ const Menu = () => {
             <a href="/" className="linkedin"><i className="bi bi-linkedin"></i></a>
           </div>
         </div>
-        <a
-          href={<Login />}
+        <a href="/login"
           className="book-a-table-btn scrollto d-none d-lg-flex"
         >
-          Inicio de Sesión
+          <NavLink to="/login">Inicio de Sesión</NavLink>
         </a>
       </header>
     </div >
